@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, intitial-scale= 1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Film Finder</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <header>Film Finder</header>
+        <nav>
+
+            <input type="radio" id="newmovies" name="film-filter" value="newmovies">
+                <label for="newmovies">New Movies</label>
+            <input type="radio" id="avenger" name="film-filter" value="avenger">
+                <label for="avenger">Avenger</label>
+            <input type="radio" id="xmen" name="film-filter" value="xmen">
+                <label for="xmen">X-Men</label>
+            <input type="radio" id="princess" name="film-filter" value="princess">
+                <label for="princess">Princess</label>
+            <input type="radio" id="batman" name="film-filter" value="batman">
+                <label for="batman">Batman</label>
+
+        </nav>
+
+        <div>
+            <ul id="nav-list">
+            </ul>
+        </div>
+
+    </div>
+
+    <script defer src="movies.js"></script>
+    <script defer src="script.js"></script>
+</body>
+
+</html>
